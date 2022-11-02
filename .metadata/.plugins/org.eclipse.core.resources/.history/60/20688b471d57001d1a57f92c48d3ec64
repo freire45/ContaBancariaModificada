@@ -1,0 +1,14 @@
+package br.com.erickfreire.contabancaria;
+
+public class ContaBancariaTeste {
+
+	public static void main(String[] args) {
+		ContaBancaria conta1 = new ContaBancaria("Joao Silva", 50.00);
+		ContaBancaria conta2 = new ContaBancaria("Maria Fernandes", -7.53);
+		
+		System.out.printf("O saldo do Cliente %s é de %.2f%n", conta1.getNome(), conta1.getSaldo());
+		System.out.printf("O saldo do Cliente %s é de %.2f%n", conta2.getNome(), conta2.getSaldo());
+		
+	}
+
+}

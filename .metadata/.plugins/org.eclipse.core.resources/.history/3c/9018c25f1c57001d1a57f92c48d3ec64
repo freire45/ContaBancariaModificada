@@ -1,0 +1,10 @@
+package br.com.erickfreire.contabancaria;
+
+public class ContaBancaria {
+	
+	private String nome;
+	private double saldo;
+	
+	
+
+}

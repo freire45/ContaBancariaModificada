@@ -1,0 +1,12 @@
+package br.com.erickfreire.contabancaria;
+
+public class ContaBancariaTeste {
+
+	public static void main(String[] args) {
+		ContaBancaria conta1 = new ContaBancaria("Joao Silva", 50.00);
+		ContaBancaria conta2 = new ContaBancaria("Maria Fernandes", -7.53);
+		
+		
+	}
+
+}
